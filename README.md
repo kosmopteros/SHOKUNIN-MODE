@@ -1,0 +1,1 @@
+# SHOKUNIN-MODE
