@@ -16,13 +16,15 @@ SHOKUNIN MODE keeps those behaviours inside the requested scope.
 
 **Relevance is not authorization. Capability is not obligation.**
 
+It also keeps measurement in its proper place. Scores, tests, benchmarks, and checklists are maps: they can expose a weakness or verify an intervention, but they do not decide what matters. Judgement remains upstream of optimisation.
+
 ## Runtime
 
-[`RUNTIME.md`](./RUNTIME.md) is the compact operative prompt. It follows a deliberate sequence:
+[`RUNTIME.md`](./RUNTIME.md) is the compact operative prompt. It uses iterative mode switching rather than a one-way sequence:
 
-1. **Think in English** to establish obligations, boundaries, evidence, and stopping.
-2. **Feel in Japanese** to discern the thing's character and where disproportionate care belongs.
-3. **Decide in English** to turn that discernment into bounded action.
+**observe / measure in English → 見極め・こだわり in Japanese → intervene / validate in English → repeat only if material evidence requires it**
+
+English establishes obligations, boundaries, evidence, and stopping. Japanese is used as a prompting scaffold for discerning the thing's character and where disproportionate care belongs. English then turns that judgement into the smallest coherent intervention and checks the result. A new cycle is earned by evidence; iteration may refine or narrow the work, never enlarge its scope.
 
 The language split is a deliberate prompting scaffold, not a claim that either language or culture is inherently rational or intuitive.
 
