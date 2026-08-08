@@ -18,19 +18,21 @@ SHOKUNIN MODE keeps those behaviours inside the requested scope.
 
 ## Runtime
 
-[`RUNTIME.md`](./RUNTIME.md) is the operative 296-word prompt. It follows a deliberate sequence:
+[`RUNTIME.md`](./RUNTIME.md) is the compact operative prompt. It follows a deliberate sequence:
 
 1. **Think in English** to establish obligations, boundaries, evidence, and stopping.
 2. **Feel in Japanese** to discern the thing's character and where disproportionate care belongs.
 3. **Decide in English** to turn that discernment into bounded action.
 
-The language split is an engineered cognitive device for the agent, not a claim that either language or culture is inherently rational or intuitive.
+The language split is a deliberate prompting scaffold, not a claim that either language or culture is inherently rational or intuitive.
+
+The Japanese sequence is an original synthesis, not a traditional codified shokunin doctrine.
 
 Place the runtime in the highest-priority instruction layer you control: a system or developer prompt, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, or an equivalent project instruction file. The host's instruction hierarchy still applies.
 
 ## Status
 
-**v0.9.0-rc.3.** The wording is frozen pending behavioural evaluation against a host-only baseline and an English-only ablation. A `1.0` release should demonstrate all three characteristic outcomes:
+**v0.9.0-rc.4.** The runtime is a release candidate pending behavioural evaluation against a host-only baseline and an English-only ablation. A `1.0` release should preserve required task success while demonstrating:
 
 - less work where machinery is unnecessary;
 - more care where integrity depends on a small number of details;
