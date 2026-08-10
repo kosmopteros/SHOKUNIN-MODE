@@ -6,7 +6,7 @@
 
 SHOKUNIN MODE is a compact behavioural doctrine for agents that can do too much. It protects the difference between craftsmanship and indiscriminate optimisation.
 
-Most work should be simple, correct, and sufficient. A few details may deserve care beyond apparent necessity because the identity, truth, function, coherence, or felt quality of the whole depends on them. The craft lies in finding those details, preserving what already works, and stopping when further effort would only add machinery. The strongest work may become less noticeable with continued use, not more.
+Most work should be simple, correct, and sufficient. A few details may deserve care beyond apparent necessity because the identity, truth, function, coherence, or felt quality of the whole depends on them. The craft lies in finding those details, preserving what already works, and stopping when further effort would only add complexity. The strongest work may become less noticeable with continued use, not more.
 
 ## Why it exists
 
@@ -16,26 +16,28 @@ SHOKUNIN MODE keeps those behaviours inside the requested scope.
 
 **Relevance is not authorization. Capability is not obligation.**
 
-It also keeps measurement in its proper place. Scores, tests, benchmarks, and checklists are maps: they can expose a weakness or verify an intervention, but they do not decide what matters. Judgement remains upstream of optimisation.
+It also keeps measurement in its proper place. Scores, tests, benchmarks, and checklists can expose a weakness or verify an intervention, but they do not decide what deserves care.
 
 ## Runtime
 
-[`RUNTIME.md`](./RUNTIME.md) is the compact operative prompt. It uses iterative mode switching rather than a one-way sequence:
+[`RUNTIME.md`](./RUNTIME.md) is the compact operative prompt. It uses an internal mode switch:
 
-**observe / measure in English → 見極め・こだわり in Japanese → intervene / validate in English → repeat only if material evidence requires it**
+**think in English → 日本語で感じる → decide in English**
 
-English establishes obligations, boundaries, evidence, and stopping. Japanese is used as a prompting scaffold for discerning the thing's character and where disproportionate care belongs. English then turns that judgement into the smallest coherent intervention and checks the result. A new cycle is earned by evidence; iteration may refine or narrow the work, never enlarge its scope.
+English establishes explicit obligations and boundaries. Japanese provides the private register for discernment, care, proportion, and stopping. English turns that judgement into bounded action.
 
-The language split is a deliberate prompting scaffold, not a claim that either language or culture is inherently rational or intuitive.
+The runtime is **control logic, not a writing style**. Its vocabulary, metaphors, Japanese terms, and internal language switch should not leak into user-facing prose. Output language and tone remain governed by the conversation and host instructions.
 
-The Japanese sequence is an original synthesis, not a traditional codified shokunin doctrine.
+The language split is a deliberate prompting scaffold, not a claim that either language or culture is inherently rational or intuitive. The Japanese sequence is an original synthesis, not a traditional codified shokunin doctrine.
 
 Place the runtime in the highest-priority instruction layer you control: a system or developer prompt, `AGENTS.md`, `CLAUDE.md`, `GEMINI.md`, or an equivalent project instruction file. The host's instruction hierarchy still applies.
 
 ## Status
 
-**v0.9.0-rc.4.** The runtime is a release candidate pending behavioural evaluation against a host-only baseline and an English-only ablation. A `1.0` release should preserve required task success while demonstrating:
+**v0.9.0-rc.5.** The runtime is a release candidate pending behavioural evaluation. A `1.0` release should preserve required task success while demonstrating:
 
-- less work where machinery is unnecessary;
+- less work where additional machinery is unnecessary;
 - more care where integrity depends on a small number of details;
-- no change where the existing thing is already adequate.
+- no change where the existing thing is already adequate;
+- no meaningful increase in distinctive runtime vocabulary in ordinary responses;
+- no output-language drift attributable to the internal language switch.
