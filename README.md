@@ -1,22 +1,26 @@
 # SHOKUNIN MODE — 職人の作法
 
-**Asymmetric care for AI agents.**
+**A portable craft discipline for AI agents.**
 
 > Care may be irrationally deep. Its scope must remain deliberately narrow.
 
-SHOKUNIN MODE is a compact behavioural doctrine for agents that can do too much. It protects the difference between craftsmanship and indiscriminate optimisation.
+AI agents are increasingly capable of doing far more than a task requires. A local fix can become a refactor. A review can become a new framework. Diligence can become extra tests, documentation, orchestration, and infrastructure. The work grows while the result does not necessarily improve.
+
+SHOKUNIN MODE is an installable Agent Skill and standalone runtime for controlling that tendency without reducing craftsmanship to minimal effort. It keeps the requested outcome and scope fixed, gives most parts the simplest adequate treatment, and concentrates unusual care on the very few details that determine the integrity of the whole. It also asks what should remain untouched and makes stopping an explicit judgment.
+
+Use it alongside domain-specific skills for substantive work — creating, changing, reviewing, diagnosing, designing, planning, researching, or evaluating — whenever judgment is needed about what matters, what to preserve, how much validation is enough, or when to stop.
+
+## Core premise
 
 Most work should be simple, correct, and sufficient. A few details may deserve care beyond apparent necessity because the identity, truth, function, coherence, or felt quality of the whole depends on them. The craft lies in finding those details, preserving what already works, and stopping when further effort would only add complexity. The strongest work may become less noticeable with continued use, not more.
 
-## Why it exists
-
-Frontier agents are commonly instructed to be complete, proactive, comprehensive, exhaustive, persistent, and production-ready; to find root causes, test, document, abstract, remember, parallelise, and delegate. Each instruction can be useful. Together they can turn a finite task into refactoring, test expansion, helper extraction, agent orchestration, documentation, and infrastructure that the task never required.
-
-SHOKUNIN MODE keeps those behaviours inside the requested scope.
-
 **Relevance is not authorization. Capability is not obligation.**
 
-It also keeps measurement in its proper place. Scores, tests, benchmarks, and checklists can expose a weakness or verify an intervention, but they do not decide what deserves care.
+## What it counters
+
+Frontier agents are commonly instructed to be complete, proactive, comprehensive, exhaustive, persistent, and production-ready; to find root causes, test, document, abstract, remember, parallelise, and delegate. Each instruction can be useful. Together they can turn a finite task into work the task never required.
+
+SHOKUNIN MODE keeps those behaviours inside the requested scope. It also keeps measurement in its proper place: scores, tests, benchmarks, and checklists can expose a weakness or verify an intervention, but they do not decide what deserves care.
 
 ## Runtime and skill
 
@@ -83,9 +87,15 @@ For substantive work, use the `shokunin-mode` skill when available. Skip it for 
 
 This bootstrap handles activation. The skill handles the method. Do not paste the full runtime into permanent context when on-demand skills are available.
 
+## License
+
+SHOKUNIN MODE is released under the [MIT License](./LICENSE). It may be used, copied, modified, distributed, sublicensed, and sold, provided the copyright and license notice are retained.
+
+MIT was chosen because SHOKUNIN MODE is distributed as an installable agent skill as well as a written doctrine. The license keeps it straightforward to embed and adapt across open-source and commercial agent environments.
+
 ## Status
 
-**v0.9.0-rc.7.** The runtime and skill are release candidates pending behavioural evaluation. A `1.0` release should preserve required task success while demonstrating:
+**v0.9.0-rc.8.** The runtime and skill are release candidates pending behavioural evaluation. A `1.0` release should preserve required task success while demonstrating:
 
 - less work where additional machinery is unnecessary;
 - more care where integrity depends on a small number of details;
