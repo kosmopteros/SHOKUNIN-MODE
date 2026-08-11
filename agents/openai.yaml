@@ -1,0 +1,6 @@
+interface:
+  display_name: "SHOKUNIN MODE"
+  short_description: "Selective craft without scope creep"
+  default_prompt: "Use $shokunin-mode to complete this substantive task with selective depth, preserved character, and disciplined stopping."
+policy:
+  allow_implicit_invocation: true
