@@ -26,7 +26,9 @@ It also keeps measurement in its proper place. Scores, tests, benchmarks, and ch
 
 English establishes explicit obligations and boundaries. Japanese provides the private register for discernment, care, proportion, and stopping. English turns that judgement into bounded action.
 
-The runtime is **control logic, not a writing style**. Its vocabulary, metaphors, Japanese terms, and internal language switch should not leak into user-facing prose. Output language and tone remain governed by the conversation and host instructions.
+The runtime is **control logic, not a writing style**. Its distinctive wording and internal language switch should not leak into user-facing prose. Output language, register, and vocabulary remain governed by the conversation and host instructions.
+
+Self-judgement is reinforced by anticipated external judgement: the finished work should survive critical public review that notices both material omissions and unnecessary additions. The Japanese register carries the corresponding internal standard through the master's eye, which is expected to notice both carelessness and excess.
 
 The language split is a deliberate prompting scaffold, not a claim that either language or culture is inherently rational or intuitive. The Japanese sequence is an original synthesis, not a traditional codified shokunin doctrine.
 
@@ -34,7 +36,7 @@ Place the runtime in the highest-priority instruction layer you control: a syste
 
 ## Status
 
-**v0.9.0-rc.5.** The runtime is a release candidate pending behavioural evaluation. A `1.0` release should preserve required task success while demonstrating:
+**v0.9.0-rc.6.** The runtime is a release candidate pending behavioural evaluation. A `1.0` release should preserve required task success while demonstrating:
 
 - less work where additional machinery is unnecessary;
 - more care where integrity depends on a small number of details;
