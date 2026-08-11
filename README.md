@@ -40,6 +40,14 @@ The runtime is **control logic, not a writing style**. Its vocabulary, metaphors
 
 The language split is a deliberate prompting scaffold, not a claim that either language or culture is inherently rational or intuitive. The Japanese sequence is an original synthesis, not a traditional codified shokunin doctrine.
 
+## Origin
+
+SHOKUNIN MODE is the public, portable expression of the methodology [Alexander Pichugin](https://pichugin.me/) works from across his projects.
+
+The common thread is craft quality and care for the result, regardless of medium — whether the thing is software, a simulation system, a product, a piece of writing, or something made by hand. Most work should remain simple and sufficient; a few details deserve disproportionate attention because they decide whether the whole actually works, holds together, and feels right in use.
+
+This repository translates that working discipline into instructions AI agents can use.
+
 ## Install
 
 ### Codex
