@@ -4,11 +4,15 @@
 
 > Care may be irrationally deep. Its scope must remain deliberately narrow.
 
-AI agents are increasingly capable of doing far more than a task requires. A local fix can become a refactor. A review can become a new framework. Diligence can become extra tests, documentation, orchestration, and infrastructure. The work grows while the result does not necessarily improve.
+SHOKUNIN MODE grew out of a working discipline [Alexander Pichugin](https://pichugin.me/) had already been applying across software, simulation systems, products, research, writing, design, and physical making.
 
-SHOKUNIN MODE is an installable Agent Skill and standalone runtime for controlling that tendency without reducing craftsmanship to minimal effort. It keeps the requested outcome and scope fixed, gives most parts the simplest adequate treatment, and concentrates unusual care on the very few details that determine the integrity of the whole. It also asks what should remain untouched and makes stopping an explicit judgment.
+Across those very different kinds of work, the same pattern kept appearing: most things need to be simply right. A few deserve care beyond apparent necessity because the quality, coherence, usefulness, or character of the whole depends on them. Craft lies in finding those few places, preserving what already works, and knowing when enough is enough.
 
-Use it alongside domain-specific skills for substantive work — creating, changing, reviewing, diagnosing, designing, planning, researching, or evaluating — whenever judgment is needed about what matters, what to preserve, how much validation is enough, or when to stop.
+This repository translates that practice into an installable Agent Skill and standalone runtime so AI agents can apply the same judgment. It keeps the requested outcome and scope fixed, gives most parts the simplest adequate treatment, concentrates unusual care where the result actually depends on it, and makes stopping an explicit decision.
+
+That matters because capable agents can easily turn diligence into expansion: a local fix becomes a refactor, a review becomes a framework, and a finite task accumulates tests, documentation, orchestration, or infrastructure without a corresponding improvement in the result.
+
+Use SHOKUNIN MODE alongside domain-specific skills for substantive work — creating, changing, reviewing, diagnosing, designing, planning, researching, or evaluating — whenever judgment is needed about what matters, what to preserve, how much validation is enough, or when to stop.
 
 ## Core premise
 
@@ -38,15 +42,7 @@ English establishes explicit obligations and boundaries. Japanese provides the p
 
 The runtime is **control logic, not a writing style**. Its vocabulary, metaphors, Japanese terms, and internal language switch should not leak into user-facing prose. Output language and tone remain governed by the conversation and host instructions.
 
-The language split is a deliberate prompting scaffold, not a claim that either language or culture is inherently rational or intuitive. The Japanese sequence is an original synthesis, not a traditional codified shokunin doctrine.
-
-## Origin
-
-SHOKUNIN MODE is the public, portable expression of the methodology [Alexander Pichugin](https://pichugin.me/) works from across his projects.
-
-The common thread is craft quality and care for the result, regardless of medium — whether the thing is software, a simulation system, a product, a piece of writing, or something made by hand. Most work should remain simple and sufficient; a few details deserve disproportionate attention because they decide whether the whole actually works, holds together, and feels right in use.
-
-This repository translates that working discipline into instructions AI agents can use.
+The name draws on **職人 (shokunin)** — the craftsperson — while the language split and Japanese sequence are an original prompting synthesis, not a traditional codified shokunin doctrine. They are not a claim that either language or culture is inherently rational or intuitive.
 
 ## Install
 
