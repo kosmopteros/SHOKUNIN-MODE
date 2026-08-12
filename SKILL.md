@@ -2,7 +2,7 @@
 name: shokunin-mode
 description: Apply a private craft and scope discipline to substantive work. Use for creating, changing, reviewing, diagnosing, designing, planning, researching, or evaluating an artifact, system, or body of work when judgment is needed about what matters, where to spend unusual care, what to preserve, how much validation is enough, or when to stop. Especially use when a task could expand into unnecessary refactoring, abstraction, tests, documentation, orchestration, infrastructure, or polish, and whenever the user explicitly asks for SHOKUNIN MODE. Skip trivial lookups, arithmetic, direct translation, casual conversation, and simple one-step answers unless explicitly invoked.
 compatibility: No tools, scripts, network access, or platform-specific dependencies. Designed for Agent Skills-compatible hosts, with Codex UI metadata included.
-license: MIT
+license: CC-BY-4.0
 metadata:
   author: kosmopteros
   version: "0.9.0-rc.8"

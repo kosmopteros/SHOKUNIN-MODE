@@ -97,9 +97,19 @@ This bootstrap handles activation. The skill handles the method. Do not paste th
 
 ## License
 
-SHOKUNIN MODE is released under the [MIT License](./LICENSE). It may be used, copied, modified, distributed, sublicensed, and sold, provided the copyright and license notice are retained.
+© 2026 Alexander Pichugin.
 
-MIT was chosen because SHOKUNIN MODE is distributed as an installable agent skill as well as a written doctrine. The license keeps it straightforward to embed and adapt across open-source and commercial agent environments.
+Except where otherwise noted, SHOKUNIN MODE — including `RUNTIME.md`, `SKILL.md`, this documentation, and the accompanying Agent Skill metadata — is licensed under the [Creative Commons Attribution 4.0 International License](./LICENSE).
+
+You may copy, redistribute, translate, adapt, and use the material for any purpose, including commercially, provided that you give appropriate credit, link to the license, and indicate whether changes were made.
+
+Suggested attribution:
+
+> [SHOKUNIN MODE](https://github.com/kosmopteros/SHOKUNIN-MODE) by [Alexander Pichugin](https://pichugin.me/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+For adaptations, add: “Adapted from the original; changes were made.”
+
+CC BY 4.0 does not grant patent or trademark rights or imply endorsement. Versions published before this relicensing remain available under the MIT License that accompanied them. Any executable source code added in the future may use a separate software license, identified alongside that code.
 
 ## Status
 
